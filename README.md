@@ -1,5 +1,7 @@
 # Tarea 3 – Conflictos socioambientales en el Perú, 2015–2026
 
+> Parte de mi portafolio: **[roddyhuarhua-hub.github.io](https://roddyhuarhua-hub.github.io/)**. Proyecto trabajado en el curso [Data-Science-Python](https://github.com/d2cml-ai/Data-Science-Python) y movido a su propio repositorio con todo su historial.
+
 **Autor:** Roddy Huarhua · Python Intermedio (d2cml-ai/Data-Science-Python, issue #197)
 
 | Producto | Enlace |
@@ -8,7 +10,7 @@
 | Reel | [`reel/reel.mp4`](reel/reel.mp4) |
 | Publicación de LinkedIn (reel y hallazgos) | https://www.linkedin.com/feed/update/urn:li:activity:7521305573431099392/ |
 | Publicación de LinkedIn (capturas del dashboard) | https://www.linkedin.com/feed/update/urn:li:activity:7521308402308878337/ |
-| Código | esta carpeta (`tarea_3/`, rama `tarea-3`) |
+| Código | https://github.com/roddyhuarhua-hub/conflictos-socioambientales-peru |
 
 ## Tema y pregunta de investigación
 
@@ -78,7 +80,8 @@ Además, el número de conflictos socioambientales bajó de unos 139 por mes en 
 ## Cómo reproducir
 
 ```bash
-cd tarea_3
+git clone https://github.com/roddyhuarhua-hub/conflictos-socioambientales-peru.git
+cd conflictos-socioambientales-peru
 pip install -r requirements.txt
 python scripts/obtener_datos.py          # opcional: descarga los 141 reportes (~400 MB)
 python scripts/procesar_datos.py         # limpieza y actividad
